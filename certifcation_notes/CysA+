@@ -1,0 +1,2896 @@
+Event -  any occurence that can be observed, verified, and documented.
+
+Incident - one or more related events that compromise the organizations security posture.
+
+Incident Response(IR) - the process of negating the effects of an incident on an information system
+
+Containment - a set of actions that attempts to deny the threat agent the ability or means to cause further damage
+
+Segmentation - The braking apart of a network into subnetworks (or segments) so that hosts in diffferent segments are not able to directly communicate with each other. This can be done by either physically wiring separate networks or by logically assigning devices to separate virtual local area networks(VLANS)
+
+Reverse engineering(RE) - the detailed examination of a product to learn what it does and how it works.
+
+Dynamic analysis - Watching what a binary does rather than what it is
+
+Static analysis -  dissassembling or decompiling binary code to translate into whichever language created it.
+
+Sanitization - the process by which access to data on a given medium is made infeasible for a given level of effort. 
+
+Gold masters - known good, hardened images of the various standard configurations for hosts on your network. 
+
+Containments should be based on the category of the attack, the assets affected by the incident, and the criticality of those assets.
+
+***Exam Tip*** preserving evidence is an important part of containment.
+
+IR has five distinct phases
+Containment
+Eradication
+Validation
+Corrective actions
+Final reporting
+
+
+Chapter Review Answers
+1.C 2.D 3.C 4.D 5.B 6.C 7.B 8.C 9.A 10.B 11.D 12.A
+100%
+
+
+Heuristic analysis -  looks at what a process or file is doing to determine it’s threat level
+
+Scope of impact - the formal determination of whether an even is enough of a deviation from normal operations to be called an incident, and the degree to which services were affected.
+
+Maximum tolerable downtime(MTD) - the outage time that can be endured by an organization
+
+Corporate confidential information/proprietary information - Information about the internal operations of a company
+
+Insider trading - Trading holdings with advanced knowledge of an event that all stockholders will not be aware of.
+
+	Chapter Review Answers
+1.A  2.A 3.C 4.B 5.D 6.D 7.A 8.D 9.A 10.D
+60%
+
+Digital Forensics - the process of collecting and analyzing data in order to determine whether and how an incident occured.
+
+Chain of custody - a history that shows how evidence was collected, transported, and preserved at every stage of the process.
+
+Forensic acquisition - the process of extracting the difital contents from seized evidence so that they may be analyzed
+
+Live forensics - the conduct of digital forensics of a device that remains operational throughout the investigation
+
+Timestomping - modifying the system clock to hide the true sequence of events
+
+The three principles that should guide every investigation as determined by the national institute of Justice:
+Actions taken to secure and collect digital evidence should not affect the integrity of that evidence
+Persons conducting an examination of digital evidence should be trained for that purpose
+Activity relating to the seizure, examination, storage, or transfer of digital evidence should be documents, preserved, and available for review
+
+There are 4 phases to an investigation:
+Seizure - the process of controlling the crime sene and the state of potential evidentiary items.
+Acquisition - preservation of evidence in a legally admissible manner.
+Analysis - combing through the data in a secure facility
+Report - generating an unbiased account of the actions and whatnot on a machine
+
+Chapter review questions
+1.C 2.D 3.B 4.C 5.A 6.A 7.D 8.C 9.A 10.B 11.C 12.A
+90%
+
+Bandwidth - the rate at which data can be xfer’d through a medium, and is usually measured in bps.
+
+Beaconing - a periodical outbound connection between a compromised computer and an external controller. 
+
+Lateral movement - the process by whicvh attackers compromies additional hosts within a network after having established a foothold in one.
+
+File system - the set of processes and data structures that an operating system uses to manage data in persistent storage devices such as hard disk drives.
+
+***for the purposes of the exam you capture volatile memory before looking at running processes****
+
+Privilege escalation - the process by which a user who las limited access to a system elevates that access in order to acquire unauthorized privileges.
+
+Chapter review questions
+1.B 2.C 3.B 4.A 5.A 6.D 7.C 8.B 9.A 10. D
+100%
+
+NIST SP 800-53(Security and Privacy Controls for Federal Informations Systems and Organizations): Outlines controls that agencies need to put into place to be compliant with the Federal Informations Processing Standards(FIPS).
+
+Security policy - an overall general statement produced by senior management or a selected policy board or committee that dictates what role security plays within the organization.
+
+Acceptable Use Policy(AUP)- specifies what the organization considers an acceptable use of the information systems that are made available to the employee.
+
+Procedures - detailed step-by-step tasks that should be performed to achieve a certain goal. 
+
+Continous monitoring - maintaining ongoing awareness of information security, vulnerabilities, and threats to support organization risk management decisions.
+
+Remediation plan - describes the steps that an organization takes whenever its security posture worsens.
+
+Evidence productions - a legal request for documents, files, or any other tangible items that may have bearing on a legal procedure.
+
+Patch management - the process by which fixes to software vulnerabilities are identified, tested, applied, validated, and documented.
+
+Physical controls - are safeguards that deter, delay, prevent, detect, or respond to threats against physical property.
+
+Logical Controls(Technical Controls) - software tools used to restrict subjects access to objects. 
+
+Administrative Controls - security mechanisms implemented by management primarily through policies and procedure.
+
+Organizational Defined parameter - is a variable that defines selected portions of the controls to support specific organizational requirements or objectives. 
+
+Sarbanes-Oxley ACT (SOX)- intended to protect investor and the public against fraudulent and misleading activities by publicly traded companies.
+
+PCI_DSS - 
+
+The Gramm-Leach-Bliley ACT (GLBA) -  requires financial instituitions to maintain safeguards to protect the confidentiality and integrity of personal consumer information
+
+FISMA - Applies to information systems belonging to or operated by federal agencies or contractors working on their behalf. Requirements on the minimum frequency of risk assessments, security awareness training, incident response, and continuity of operations.
+
+Verification - the process of ensuring that policies and procedures are being followed
+
+Quality control - the process of sampling our controls and ensuring they provide a certain baseline of security.
+
+Audit - a systematic inspection by an independent third party oftentimes driven by regulatory complaince requirements.
+
+Assessment - any process that gethers informations and makes determinations based on it.
+
+Certification - the comprehensive thencical evaluation of the security components of a system and their compliance with applicable regulations. 
+
+Accreditations - the formal acceptance of the adequacy of a systems overall security and cunctionality by management.
+
+Capability Maturity Model Integrations (CMMI) - a comprehensive, integrated set of guidelines for developing products and software.
+
+Chapter 11 questions
+1.C 2.A 3.D 4.A 5.B 6.D 7.B 8.B 9.B 10.A
+70 %
+
+Miltifactor authentication - technique of identity assurance that requires two or more pieces of information when a user attempts to access a system. Factors fall into three categories. Something you have, something you know, and something you are.
+
+Context-based authentication - makes the authentication process more secure by seamlessly and transparently incorporating factors such as location data, time, or even tpying patterns.
+
+***Passwords and pins are something you know. Smart cards, hardware authentication devices, and USB dongles fall into the category of something you have. Something you are and something you do include biometric charactistics or any other trait inherent to the user such as handwriting or speech pattern.***
+
+Spoofing - an action where an unauthorized user presents seemingly legitimate but fabricated data to a system to gain access.
+
+Time window -  the time that a passcode generated by certain devices is valid
+
+Digital identifty - a distinct representation fo a real world subject within an information system.
+
+Authentication - the process by which a subject verifies its ownership of a particular identity for the purpose of obtaining authorization to access specific objects or resources. 
+
+***Although you will not be expected to step through a full kerberos authentiation process you should understand its architecture and use of tickets and symmetric keys***
+
+Privilege escalation - elevated access to the target application or operating system.
+
+***Under no circumstances should administrative rights to an AD service be shared. Malicious individuals who obtain administrative access to AD domain controllers have total control over the network. Even non-malicious but inexperienced users with access can cause unanticipated problems should they make incorrect configuration changes.***
+
+Provisioning  - the coordination of efforts behind creating user accounts on a service and setting the appropriate roles and access associated with them.
+
+Reflected xss - are non-persistent xss attacks. Such as crafting a malicious link to a site having someone visit it and having the code added to the link reflected back to the user.
+
+  Chapter review questions:
+1.A 2.D 3.C 4.B,C 5.A 6.C 7.A 8.D 9.A 10.C
+80%
+
+
+
+
+
+
+
+
+Data aggregation -  collecting data, tagging it, ordering it, and displaying in a way that is useful for analysis
+
+Log manager - collects and normalizes data from sources across the network
+
+***The difference between trend and historical analyses is small; most practitioners use the terms interchangeably. For the pupose of the CysA+ exam, trend analysis helps predict future events and historical analysis helps compare new observations to past ones ***
+
+***When dealing with logs, consider the time zone difference for each device. Some might report in the time zone you operate in, some mught use GMT, whereas other might be off altogether.***
+
+***The default location for the Linux operating system and applications logs is the /var/log directory. In the Windows environment, the Event Viewer will allow you to view the event logs, For other network devices, the syslog loction may vary***
+
+Dual control - the practice that requires the involvement of two or more parties to complete a task.
+
+Chapter 13 review questions:
+1.C 2.D 3.C 4.B 5.A 6.D 7.A 8.D 9.C 10.D 11.BC
+80%
+
+Functional requirements - defines a function in terms of inputs, processes, and outputs.
+
+Nonfunctional requirements (quality requirements) - defines a characteristic, constraint, or limitation of the system. 
+
+Security requirements - defines the behaviors and characteristics a system must possess in order to achieve and maintain an acceptable level of security by itself and in it’s interactions with other systems.
+
+Interception proxy - a software tool that is inserted between two communicating endpoints for the purpose of examining, modifying, or logging messages between the two.
+
+Chapter 14 review questions:
+1.A 2.A 3.C 4.A 5.D 6.B 7.C 8.D 9.D 10.B
+
+
+Stateful packet inspection firewall - keeps track of the state of the connection between endpoints. If a legitimate connection doesn’t exist then the packet is not allowed even if it matches a rule.
+
+Chapter 15 review questions:
+1.D 2.B 3.C 4.D 5.C 6.A 7.B 8.C 9.A 10.DE
+
+
+Beginning of video notes
+
+Threat Mgmt
+
+CIA Triad - Confidentiality, Integrity, Availability
+
+Failure oif confidentiality occurs if someone can obtain and view the data
+
+Physical protections - Locked doors, fences, security guards, security cameras, safes
+
+Electronic Protections - Encryption (storage and in transit), passwords, firewalls, 2FA
+
+Integrity
+
+Failure of integrity occurs if someone modifies the data being stored or when in transit
+
+Best methods
+Hashing of files and infomration
+Checksums during data transmission
+
+Availability
+
+Failure of availability occurs if the data cannot be accessed by the end user
+
+Best methods
+
+Redundancy in the system design, including components and data paths
+Backup strategies and disaster recovery plan
+
+Risk Consideration
+
+Risk = Threat + vulnerability on an asset
+
+Asset -  Any item that has value to the organization
+
+Vulnerability -  Any weakness in the system design, implemenation, software code, or lack of preventative mechanisms
+
+Threat -  Any condition that can cause harm, loss, damage, or compromise of an asset
+Ex.
+Natural disasters, cyber attacks, breach of integrity of data, disclosure of confidential data, malware
+
+Risk - The probability of realizing a threat
+
+Vulnerability without a threat equates to no risk
+
+Risk = vulnarability x threat
+
+Risk Assessment
+
+Organizations should conduct routine risk assessments
+
+Risk assessments measure your current level of risk based on threats, vulnerabilities, and mitigations in place
+
+National institute of standards and technology (NIST) publishes NIST Special Publication (SP) 800-30 as a foundation for risk assessments
+
+4 steps
+Prepare for assessment
+Conduct assessment
+Idnetify threat sources and events
+Identify vulnerabilitys and predisposing conditions
+Determine likelihood of occurence
+Determine magnitude of impact
+Determine risk
+			3. Communicate results
+			4. Maintain assessment
+
+Identifying Threats
+
+Adversarial Threats 
+Consider their capability, intent, and likelihood
+Ex.
+Trusted insiders
+Competitors
+Suppliers
+Customers
+Business partners
+Nation states
+
+Accidental threats
+
+Occurs when someone makes a mistake that hurts the security of the system
+Ex.
+System admins accidnetally takes servers offline causing loss of availability
+
+
+Structural threats
+Occurs when equipment, software, or environmental controls fail
+Ex.
+IT server fails due to hard drive failure
+Servers fail due to overheating (HVAC fail)
+Software failure
+
+Environmental threats
+Occurs when natural or man made disasters occur
+Ex.
+Fires
+Flooding
+sever e stroms
+Loss of power from the city power grid
+Fiber or telco lines cut
+
+Best Practices
+It can be helpful to get copies of similar orgs risk assessment to use as a baseline for your own org
+
+Conduct quality assessment checks to ensure you are stying on track
+
+Likelihood Impact and risk
+
+Measurement of the risk that the combined threat and vulnerability pose is based on the likelihood and impact
+Likelihood is the chance the the risk will be realized
+Impact is the severity of damage that occurs if the risk is realized
+Likelihood is qualitative low/med/high/critical
+Impact
+Always assume the threat takes place and the risk is realized when measuring impact
+Identify the severity of the impact
+Consider each piece of the triad
+Impact is qualitative low/med/high/critical
+
+Qualitative vs quantitative assessments
+
+Qualitative measurement is subjective
+Quantative measurement is based on numbers
+
+***For the exam you do not need to understand quantative assessments, but they are covered on the CISSP and CASP***
+
+Annual Loss Expectancy - Common calculation to determine the cost associated with risk
+
+Aids in determing when to accept, avoid, transfer, or mitigate the risk
+ALE = Cost X Occurences
+
+Risk Controls
+4 ways to handle risk
+Risk acceptance - When an organization accepts the risk associated with a systems vulnerability and their associated risk
+Risk acceptance is common when the risk is low enough to not apply countermeasures, or adequate countermeasures have already been applied
+Risk avoidance - Risk is too hight to accept, so the system config or design is changed to avoid the risk assoicated witha  specific vulnerability
+Risk mitigation - Main goal is to minimize risk to a level acceptable to the organization
+By adding controls, we can mitigate the risk down to an acceptable level
+Risk Transferance - If the organization cannot afford to accept, avoid, or mitigate the risk, they can transfer the risk to another business
+Ex.
+If the org is concerned that it would be too costly to recover from a flood, they can purchase flood insurance
+
+Risk controls
+Technical controls - Systems devices software and settings used to enforce CIA requirements
+Ex.
+Firwalls, IDS, IPS
+Installing antivirus and endpoint security
+
+Operational Controls - Practices and procedures to increase security
+Ex.
+Conducting pen tests
+Utilizing SOP
+
+Network perimeter security
+
+Firewalls - Most common network perimeter security, firewalls are at network boundaries
+Set up as triple-homed devices Internet, DMZ, intranet
+
+DMZ - Special network zone hosting servers that gets traffic from the internet, acts as a semi trusted zone
+
+ACL - Access control ists. All traffic passing through the firewall is checked against the ACL. ACL contains rules to define what traffic cna pass through the firewall
+
+Firewalls should deny by default, if no rule says allowed all traffic is denied
+
+Firewall types
+Packet filtering - Check each packet against rules for IP and port
+Stateful Inspection - Maintains information about the state of each connection
+NGFW - Uses contextual information about users, apps, and processes to make decisions
+WAF - Protects against web application attacks like SQL injecton and Cross-site scripting (SQL/XSS)
+
+Network Segmentation
+
+Separates networks of different security levels from each other
+We apply the same principle as the triple homed firewall to the intranet networks
+
+Network Access Control
+
+Limits networks access to only authorized individuals and systems
+Ensures the systems connecting to the network meets basic security requirements
+802.1x protocol is most common standard utilized for nac
+Works for wired and wireless networks
+
+Agent based - Requires the device requesting access to have special software to communicate with the NAC service
+
+Agentless - NAC authentication is conducted ina web browser and doesn’t need special software
+
+In-band - Uses dedicated appliances placed between the devices and the services they are requesting
+
+OOB - Relies on existing network and has device communicate to authentication servers
+
+NAC approval criteria
+Time of day
+Role of the user
+Location of the user
+System health Status
+
+Defense Deception methods
+
+Honeypot - System designed to look like a lucrative target due to the types of services being run or vulnerabilities contained
+
+In reality honeypots are designed to falsely appear vulnerable and to fool malicious attackers to waste time going after them
+
+DNS Sinkhole - Provide false DNS information to malicious software
+
+Compomised system requests DNS information from the server, but the server detects the suspicious request and gives the IP address of the sinkhole instead of the real command and control server
+
+Secure Endpoint MGMT
+
+Hadening system configrations
+Patch mgmt
+Compensating controls
+Group policies
+Endpoint security software
+
+Hardening a system makes it as resistant to attack as possible
+Ex.
+Disabling unnecessary services
+Disabling unnecessary ports
+Verifying secure configs
+Centrally controlling device setting
+
+Compensating controls - fi you can’t implement a security control, you can compensate for it
+
+Provides a similar level of security by using an alternate means
+
+GPO - Group Policy Objects
+Provides admins an efficient way to manage system and security configuration settings across amny devices in a network
+Ex.
+Require the use of a firewall on all hosts
+Mapping to a share drive on login
+Run scripts at login to verify compliance
+
+Endpoint security software - specialized software to enforce the companys security objectives/policies.
+This sofware should report to a cnetralized mgmt system for a cyber security analysts to view and analyze
+
+MAC - Mandatory access control sets all security permissions centrally and the users cannot change permissions locally
+Discretionary access control allows the owners of a file or resource to control the permissions on that resource
+
+Penetration testing
+
+Goals - to gain access to your systems and report the findings to management
+
+Can be performed by internal staff or external consultants
+Requires highly skilled individuals
+Test are very time consuming and costly
+
+Phases of a pentest
+ Planning -> Discovery -> attack -> additional discovery -> reporting
+NIST SP 800-115 (Technical guide to information security testing and assessment) divides PenTests into four phases
+
+Planning
+An important phase of a PenTest
+No technical work is performed
+Timing,Scope, and authorization is gained during the planning phase
+You should never conducat a PenTest without authorization it’s illegal
+
+Discovery
+ Testers conduct recon and gather as much info on the network, systems, users, and applications
+Ex.
+Open source research
+Port scanning
+Enumeration
+Vulnerability scanning
+Web application scanning
+
+Execute the attack
+Seeks to bypass the security controls and gain access to the system
+
+Attack phase (aka exploitation)
+Gaining access
+Escalating privs
+System browsing
+May refer back to discovery phase again
+Installing additional tools
+
+Reporting
+Testers should preapare a detailed report after the test
+Contains results of the PenTest, describing their successful attacks and suggestions on how to fix them
+Should be prioritized baased on the risk posed by each vulnerability exploited
+
+
+Security exercises and training
+
+Security exercises can put penetration testers and defenders against each other to provide additonal training
+Performed in a simulated environment not a prod network
+Conducted by three types of teams:
+Red, blue, white
+
+Red Team
+
+Patricipates as the attacker
+Uses recon and exploitation tools to gain access to the network
+Similar to penetration testers
+
+Blue team
+
+Participates as the defender
+Secures the network and attempts to keep red team out through the use of security controls
+Usually made up of sys and net admins
+
+White team
+Participates as the referee
+Coordinates the exercise and arbitrates disputes
+Maintains the simulated environment and monitors the exercise
+
+Reverse Engineering
+Malware authors do not explain how their software works
+Reverse engineering is a technique to take a finished product and understand its inner workings through decomposition
+Conducted through dynamic or static analysis
+
+Dynamic analysis
+Malware is placed in a sandbox and its behaior observed on the system and the virtual network
+Automated solutions can do this in near real time, where email attachments are launched and automatically analyzed for malicious activity
+
+Static analysis: software
+Analysis of the code fo the malware
+For ruby and python the code is readable because they are interpreted languages
+For c++/java code is compiled
+Static analysis of compiled code requires a decompiler or analysis in binary format
+
+Reverse engineering hardware
+Very difficult to perform due to embedded software in firmware
+Most often dynamic analysis is conducted on hardware
+Hardware should be purchased from a trsuted supplier to minimize the risk of malware being inserted into the firmware of hardware devices during procurement and shipment to your company
+
+Reconnaissance and Intelligence
+Gathering of information to better understand the security landscape
+Some security standasrds and laws such as the PCI-DSS standard, require information gathering from inside and outside your network to ensure compliance through vulnerability scans performed quarterly
+Numerous tools and technques for conducting this discvovery
+
+Footprinting the network
+
+Creates a map fo the network systems and other infrastructure of the company
+
+Created using amix of info gathering tools and manual research
+
+Guidance can be found in the nist sp 800-115 and the open source security testing methodology manual (OSSTMM)
+
+Active Recon
+ Ultilizes a host of scanning tools to gether info about systems services and vulnerabilites in the network
+Does not include exploitation of the vulnerabilites only id of them
+permission should be sought out before conducting active recon because it could be construed as an attack by mistake
+
+Network Mapping
+
+Network mapping tools used during actve recon can approximate the network by using
+ttl 
+Traceroute info
+Other responses from the network devices
+zenmap/nmap are useful for conducting network mapping
+
+Challenges
+Firewalls and l3 switch acls can make it difficult to map a network fully
+Wireless networks are also a challenge
+Virtualized networks and infrastructure
+Cloud services
+
+Port scanning
+
+Most common method to gather info on a network and devices
+Port scanners perform:
+Host discovery
+Port scanning and service identification
+Service version identification
+Operating system identification
+
+Port scanners also used for network inventory tasks and security audits
+
+Service identification attempts to identify the service and its version through banner grabbing or comparing tcp/dup packet responses to known signatures
+
+OS fingerprinting uses the TCP/IP stack responses from the TCP and UDP packes sent to identify windows, linux, or osx and if possible the version
+Importance of port numbers
+Well-known ports (0-1023)
+Registered ports (1024-49151)
+
+Internal scans will see more information than an external scan
+If you are trying to simulate a cyber attack during a PenTest, you should be scanning from the outside of the network to match the attackers perspective
+
+Other port scanners
+
+Angry IP scanner
+Multiplatform (Windows, Linux, MacOS)
+Graphical port scanner
+Doesn’t provide service or OS information by default(Must use fetchers to get more details)
+Well known, but not as full featured as NMAP/Zenmap
+
+Many other port scanners exist
+Metasploit built in scanners
+Qualys vulnerability mgmt
+Tenables nessus vulnerability scanner
+Your own written in python
+
+Nmap flags
+
+-sS syn scan
+-sT full connect
+-sA for ack
+
+Passive reconnaissance
+
+More difficult than active recon
+Relies on logs and other data
+Data you receive may be out of date
+Often used during a cyber incident response
+
+Local system configuration data and log files can be used to build a network map
+Some tools exist to parse configuration files into a usable topology
+Much of this is done manually, though
+
+Passive Reconnaissance - Network devices
+
+Network devices log many activities. Their status and events
+Includes traffic patterns and utilization
+Log files, configuration files, and network flows are great for passive recon
+Network devices send their logs to the display console (only logged in user sess them) by default
+You should configure them to send logs to centralized logging server or use snmp to send the information
+
+Log levels - Cisco Based
+Level 0 - Emergencies - Failure causing a shutdown
+Level 1 - Alerts - Temperature exceeded
+Level 2 - Critical - software failure
+Level 3 - Errors - Interface down
+Level 4 - Warning - Configuration Change
+Level 5 - Notifications - Line Protocol up/down
+Level 6 - Information - ACL violation
+Level 7 - Debugging - Debugging messages
+
+Configuration files
+Invaluable when mapping a network
+Identifies all routes and devices in detail
+Provides details of SNMP and SYLOG servers on the network and user and admin accounts and more
+
+Netflow data
+Cisco network protocol
+Captures IP traffic information for traffic monitoring to provide flow and volume
+Contains IP, source port, destination port, and class of service
+Other vendors have ‘flows’ like juniper jflow and cflowd, citrx appflow and hp’s netstream
+
+Passive Recon - Netstat
+
+Built in utility in windows linux macOS and unix
+Provides active tcp and udp connections
+Id process using a connection
+Provides statistics on sent/received data
+Route table information
+
+Netstat -a
+Provides active TCP and UDP connections filtered by tcp, udp, icmp, IP, IPv6, and mroe
+
+Netstat -0
+Identify process using a connection
+
+Netstat -e
+Ethernet stats on sent/recv data
+
+Netstat -r
+Displays route table information
+
+
+DHCP logs and config files
+
+Dynamic host configuration protocol
+Provides an IP address, default gateway, subnet mask, and dns server to a host
+Dhcp server logs and configs are useful during passive recon
+Combined with firewall logs, you can determine which hosts use dynamic or static IP’s
+
+Firewall logs and config files
+Both firewall and router logs and configs indicate accepted and lbocked conenctions
+It is a good way to passively understand your network design
+Reading configs is quicker than reverse engineering the log files
+
+Firewall logs
+Often use log levels to categorize infor and debug messages
+Cisco palo alto and check point all log things a little different but have common items like dat/time and details of the event
+Logs are designed to be human readable
+Access logs on cisco using show logging command
+
+System and host log files
+System logs are collected by the system
+Useful for troubleshooting and reconstructed a cyber attack
+Log files provide info on sys config, apps, and user accounts
+You have to have system access to get these logs
+
+Windows system log types
+Application logs
+Logged by programs/applications
+Security logs
+Records login events, resource usage, files created/open/deleted, etc
+Setup logs
+Records application setup actions
+System Logs
+Events from windows components
+Forwarded Events Logs
+Even subs from remote computers
+
+Linux system logs
+/var/log directory
+Other applications may store their own log files elsewhere
+
+DNS harvesting
+
+Often our first step in info gathering
+DNS info is publically available
+A quick whois search can give you many details to use
+Hostnames can tell you about the server
+Dns xfr
+Designed to replicate DNS databases between two dns servers
+This is a vulnerability if zone transfers are allowed, so most prevent zone transfers to servers that aren’t trusted
+You can use dig to perform the transfer:
+Dig axfr @dns-server domain.name
+
+Digininja provides a couple DNS serversthat allow zone transfers for you to practice this technique
+
+DNS brute forcing
+Used when you can’t perform a DNS zone transfer
+Simply sends manual or scripted DNS queries for each IP of the organization
+Organizations can rpotect against this by sending responses slowly or with IDS/IPS rules to prevent this
+
+Whois and host commands
+Allows search of databases for domain and iP blocks
+Provides detailed registration information used when claiming the domain name
+Names, addresses, IP’s, phone numbers and more can be gained
+Host 
+Provides ifnormation about a systems ipv4 and ipv6 addresses and servers
+
+Information gathering and aggregation
+
+Can be found using packet captures
+Requires an intruder to breach a company’s network to gather this info
+Treasure trove of information
+What hosts are on
+What os are running
+What shares available
+This is done using tools like tcpdump,wireshark
+
+Tools
+Theharvester
+Maltego
+Shodan
+
+Organizational Intelligence
+Your org has an online profile, whether you know it or not
+This can be used by an attacker against you
+In a pen test we act as the attacker so we must use this information too
+
+Data
+Locations
+Work routine of the org
+Org charts
+Documents
+Financial data
+Personal information of your employees
+
+Document harvesting
+Metadata - contains authors name and software version used
+EXIF - photos could contain geolocation coordinates
+It is important to scrub metadata and EXIF data from docs posted ont he web
+Emails - Can be used to perform contact chaning and conduct social engineering
+
+Organizations are getting smarter and posted less sensitive info online
+On the internet nothing is ever gone
+The internet archive
+Time travel service
+Google cache view
+Cachedview.com
+Social media is a great place to find details about the organizations employees
+Many people post what companies they work for and dont set their privacy settings up properly
+Paid public record searches
+Social Engineering
+Epxloits the human element of security
+Occurs via phone, email, social media, or even in person
+Social Engineering Toolkit(SET)
+Creepy(geolocation tool)
+Metasploit
+
+Detecting preventing and responding to recon
+
+Successful recon doesn’t always mean a successful attack, but we want to limit the damage that could occur as much as possible
+We utilize the same technique to limit both casual and active recon
+
+Detecting recon Overview
+Monitoring must occur at connection points between two network zones
+Perform data collection so you can analyze the data at a later time
+
+Data Sources
+Network traffic anaylsis using IDP,IPS,HIDS,NIDS,firewalls and other securtiy devices
+Packet analysis
+Protocol analysis
+Traffic and flow analysis
+Device and system logs
+Port and vulnerability scans
+SIEM
+If you outsource your services you might have to rely on your SaaS of PaaS provider to detect it for you
+
+Data Analysis
+Anonamaly analysis - what is different about this what is not normal
+Tend analysis - heklps to idnetify future problems based on past (example traffic congestion)
+Signature Analysis - Fingerprint or hash used to detect threats
+Heuristic or bahavioral analysis - Detects threats based on bahvior
+Manual analysis - human expertise is used to analyze the data
+
+Preventing Passive Recon
+Control the information you release
+Blacklist systems that are abusing your services
+Use CAPTCHA’s to preven scripts/bots
+Utilize third party registration for domains/ips
+Set rate limits for lookups and searches
+Avoid publishing zone file
+Educate your users about social media risks
+
+Preventing active recon
+Employ networkd defenses
+Limit external exposure of services and know your forward facing footprint
+Utilize an IPS to limit or stop probes/scans
+Utilize monitoring and alert systems based on signature,behaviour, or anomaly
+
+
+Domain 2:
+Vulnerability management
+What is vulnerability management?
+	Identification, prioritzation and remediation of vulnerabilities before a threat can exploit t		them
+An organized approach to scanning and continous assessment of your organizational security posture
+Regulatory requirements
+
+As you begin to develop your vulnerability management program, you must understand the requirements you might have
+Regulatory requirements (HIPAA, GLBA, PCI_DSS, FISMA)
+Corporate policy-based requirements
+Such as targets and frequency
+
+Laws and regulations that govern information storage and processing:
+HIPPA
+GLBA
+FERPA
+
+Laws and regulations that require vulnerability management programs
+PCI-DSS
+FISMA
+
+PCI-DSS
+Specifies securty controls for cred card processors and merchants
+Most spefic of any requirement for vulnerability mgmt
+Ex.
+Internal and external scan must be conducted
+Scanned at least quarterly and all major changes
+Interal scans by qualified personnel
+External scan by approved scanning vendor
+Remediate any high risk vulnerabilities and rescan until a clean report is achieved
+
+FISMA
+Specifies security controls for govt 
+Both agencies and organization that run the systems
+Systems are classified as low, moderate, or high impact which dicatate the requirements
+Scan systems when new threats emerge
+Use tools/techniques that are interoperable
+Analyze scan reports from assessments
+Remediate vulnerabilties based on risk
+Share findings with other agencies to eliminate similar vulnerabilties in other systems
+
+Corporate requirements
+
+Laws and regulations that require vulnerability mgmt programs dont apply to all companies
+Vulnerability mgmt is still very important to them as a key component to security
+Organizations can (and do) require scanning under their own corporate policies
+Scan targets:
+What asystems do you want to be covered by your scans
+Do you scan all systems or just critical assets
+Scanning tools like QualysGuard can be used to build your asset inventory automatically
+Admins then take that information and classify the systems as critical or non critical
+
+Scan frequency:
+How often do we scan the systems?
+Schedule determined by your goals to meet security, compliance, or other business requirements
+Automated email reports or alerts can be configured as well
+Considerations:
+Orgnizational risk appetite
+How mcuh timebetween a new threat and a scan
+Regulatory requirements
+Do you fall under FISMA or PCI-DSS?
+Technical constraints
+Network may not support scanning everything
+Business Constraints
+Do you have to avoid high business activity times
+Licensing limitations
+Scanner can control how many concureent scans can be performed through licensing
+Best practices
+Start Small
+Expand slowly
+Prevent overwhelming the enterprise systems and your sys admin team
+
+Scanning tools
+QualysGuard
+Nessus
+Nexpose
+OpenVAS
+Nikto
+Microsoft baseline security analyzer
+
+Scoping Scans
+Describves the etent of the scan
+What networks and systems are included
+How will you test if a system is on the network
+What tests will be performed against the systems during a scan
+
+Develop scope properyl and gain agreement from staff and management
+Ensures you are unlikely to cause issues during your scanning efforts
+Network segmentation often allows you to minimze your scope for compliance scans
+PCI-DSS networks should be segmented from the rest of the organizational network
+
+Configuring scans
+
+Scheduling automated scans
+Producing reports
+Prividing auth access for scan
+Choosing plugins
+
+Scanning Sensitivity
+
+Choose level appropriate with objectives
+Plugins
+Provide the scan functionality for differnt functions
+Enable/disable them base don your needs
+If lunix disable windows
+Some scan can disrupt your systems or cause loss of data
+Ensure you are scanning safely and with permission
+Templates for scans
+Vnedors provide templates for scans with common settings
+Admins can also create their own templates for commonly used scans
+This prevents errors and saves time
+
+Scanning perspective
+Comprehensive scanners provide you with different scan perspectives
+External scans provide viewpoint of attacker
+Internal scans provide viewpoint of insider threat
+Datacenter scans provide a close internal scan one that might be blocked by other secuirty devices
+Rembmer PCI-DSS requires both to be conducted
+Internal can be performed by your own techs
+External must use approved outsiders to scan
+Policies define scan perspective
+
+Authenticated Scanning
+Firewalls, intrusion protections systems and other security devices can prevent some details of a scan from being successful
+Using an auth scan can overcome this issue
+Provide the scanner read-only access to the servers
+Scanner can access the operating system databases and applications on the server
+Agent based scanning
+Small software agents installed on your server or clients
+Provides and inside out perspective of vulnerabilities on the server or client
+Agent based approaches require more resources on the server and often sys admins fight against their installation
+
+Maintaining Scanners
+
+Vulnerability mgmt tools are vulnerable to vulnerabilities themselves
+You should always update the tools and it’s plug-ins/signatures before use
+This can be automated, as well, but check to verify the update has occured before use
+Regular patching is critical to a secure scanner
+Implements bug fixes
+Feature enhancements
+Improves scan quality
+Plug-ins can be automatically set to update daily
+Provides signatures for latest vulnerabilities
+
+Standardizing Vulnerabilities
+Vulnerability mgmt used to be performed by numerous different types of software with no common protocol
+Security Content Automation Protocol (SCAP) led by NIST standardized vulnerability mgmt between different software (NIST SP 800-117 Guide to adopting and using the SCAP)
+SCAP
+Common Configuration Enumeration (CCE)
+Standard names for system config issues
+Common Platform Enumeration(CPE)
+Standard names for product names and versions
+Common Vulnerabilities and Exposures (CVE)
+Standard names for security-related software flaws
+Common Vulnerability Scoring System (CVSS)
+Standard approach for severity of software flaws
+Extensivle Configuration Checklist Description Format (XCCDF)
+Language for checklists and reporting results
+Open Vulnerability and Assessment Language(OVAL)
+Language for low-level testing procedures used by the checklists
+
+Workflow Remediation
+Continous monitoring
+Provides for on-going scanning of the networks
+Checks for vulns as often as possible based on resources available
+Provides earlier detection of vulnerabilities
+Automation
+Many products include built-in workflows and automation to track vulnerabilities through the cycle
+Can automatically close out vulns when testing shows they are solved
+Some tools can be integrated into your IT service mgmt system, too
+
+Vulnerability reporting
+Vulnerability analysts need to communicate the issues found to the system administrators
+Scanners provide detailed reporting that can be automated to alert system administrators at periodic intervals
+Critical vulnerabilities found can be sent out of cycle
+
+Managers love dashboards
+Provides a high level summary of issues
+Shows which hosts are most vulnerable
+Shows which vulnerabilities are most critical
+
+Remediation priority
+
+Man hours, money, equipment and other items are a limited resource
+Vulnerability mgmt is all about prioritization of organizational efforts
+You can’t fix everything right away
+Take into account confidentiality, integrity, and availability if the vulnerability was exploited
+Example:
+	If an attack was able to breach your customer database and get all their information. How bad is this?
+
+How much time and money will it cost to fix it?
+Example:
+	I can spend all my time and money fixing the #1 vulnerability, or I can fix vulnerabilities 2,3,4, and 5. Which should I do?
+
+How sever is the vulnerability?
+Each vulnerability is given a criticality value in the CVSS
+Different vulnerabilities are more severe than others
+Ex.
+	Known-exploit against a software bug that allows for remote-code execution is very severe
+	XSS vulnerability might be less severe if its on an intranet server only
+External facing servers are more exposed than intranet servers
+Often you should fix lower external vulnerability before a higher internal one
+
+Implementing and Testing
+Vulnerability analysts don’t implement the fixes
+Their role is to find the issues and pass them to the system admins to fix
+Fixes may not be quick, often they require approval from the change control board
+Fixes should be tested in a lab environment prior to rolling out to prod
+Vulnerability analysts view fixes as the highest priority
+Not everyone in the org does
+You need to coordinate with others to get these vulnerabilites remediated
+Service degradations, promises to customers, and IT governance can slow down your efforts
+Vulnerability scanning places a resource tax upon the network and its servers when scans are conducted
+Scans can risk disrupting business functions
+Overcoming objections:
+	Consider different scan times
+	Change scanning setting to lower intensity modes
+MOU’s and SLA’s have specific uptime, performance, and other requirements that the orgs must meet
+Scans can risk disrupting business functions
+Overcoming objections:
+	Ensure the cybersecurty team is involved in the drafting of MOU’s and SLA’s
+	Discuss appropriate times and scope for scans
+IT governance
+Can create hurdles in getting approval to implement changes
+Fixes can risk disrupting business functions
+Overcoming objections:
+	Work within org policies when possible to get resources and support
+	Utilize the Emergency Change Control Board when critical fixes must be implemented quickly
+
+Interpreting Scan results
+Scanners do a great job of automating the indentification of vulnerabilities
+A trained analyst is required to understand the implications of those vulnerabilities:
+Eliminating false positives
+Finding root causes
+Prioritizing remediation actions
+
+Interpreting CVSS(Common Vulnerability Scoring System)
+Industry standard for identyfiyng the severity of a vulnerability
+Analysts use this score to help prioritize remediation efforts
+Measured in six categories
+Three for exploitability
+Three for impact
+Access Vector(AV) metric
+L = Local = Physical or ligacl acces required to the system
+A = Adjacent network = Access to LAN for affected system required
+N = Network = Remote access from WAN
+Access Complexity(AC) Metric
+H = high = requires difficult/specialized conditions
+M = Medium = Requires “somewhat specialized” conditions
+L = Low = requires no specialized conditions
+Authentication(AU) Metric
+M = Multiple = Requires two or more authentications
+S = Single = Requires one authentication
+N = None = No authentication required
+Confidentiality(C) metric
+N = None = No impact to confidentiality
+P = partial = considerable disclosure of information
+C = Complete = Total disclosure of information
+Integrity(I) metric
+N = none = no impact to integrity of the system
+P = partial = Modification of some informaiton possible
+C = complete = total loss of integrity
+Availability(A) metric
+N = none = No impact to to availability
+P = partial = reduced performance or loss of functionality
+C = complete = total loss of availability
+
+CVSS temporal score (Common vulnerability scoring system)
+Temporal scores change over the lifetime of the vulnerability
+As exploits are developed, disclosed, and mitigations made available, the score changes
+	
+	Validation of results
+CVSS scores are helpful, but they alone don’t tell you how a vulnerability affects your systems
+Some vulnerabilties are:
+	False positives
+	Documented Exceptions
+	Informational results
+	Scanners can often report that a vulnerability exists even if it doesn’t
+	How often this occurs is known as the false positive error rate
+	Vulnerabilities are validated and verified
+		Check if a patch is missing
+		Attempt to exploit erroneous code
+		Verify the system configuration
+Accepted Vulnerabilities that are known, but will not be fixed by the organization
+Once the risk is accepted by mgmt they should be documented in the scanner to prevent future reporting of them
+Not everything reported by the scanner is considered a vulnerability
+Some are reported as informational
+Typical informational items are configurations that would allow an attacker to perform reconnaissance
+Logs from servers, network devices, applications and other sources
+Configuration mgmt systems
+SIEM
+Trend analysis also allows the analyst to ensure the vulnerability mgmt program is working effectively
+
+Common Vulnerabilities
+Vulnerability scanners can detect 1000s of different types of vulnerabilities
+5 basic categories
+Server and host vulnerabilities
+Network Vulnerabilities
+Virtualization vulnerabilities
+Web application vulnerabilities
+IoT vulnerabilities
+
+Server and host vulnerabilities
+Missing patches 
+one of the most common issues found comes from improper patch mgmt
+Unsupported Software
+Software vendors don’t support software forever, they have an EOL date
+After this date, no more patches are released for the software
+Buffer overflows
+Occur when attackers manipulate a program to place mroe data into memory than it is allocated for causing overflow
+Another specific type is integer overflow
+These vulnerabilities tend to exist for a long time, but can be corrected by a patch
+Priv escalation
+Occurs when an attacker upgrades their level of access to an admin or root user
+kernel -mode drivers are exploited to allow local users to become an admin
+Arbitrary code execution
+Allows attacker to run software on a targeted victim machine
+Remote code execution is worse, because it allows it to occur over network
+Insecure protocol use
+Older protocols not designed for security FTP, TELNET, SMBV1
+Debugging modes
+Debugging modes give lots of information devs, but should be disabled prior to server and code deployment
+Debugging info could give attackers a lot of information during a reconnaissance
+
+Network Vulnerabilities
+Missing firwmare updates
+Network devices rely on firmware for their operating systems
+Firmware needs patching and upgrades
+SSL and TLS issues
+Designed to secure information sent over the internet
+SSL is insecure and shouldn’t be used
+Admins should disable support for older versions(SSL and TLS before v1.2)
+SSL/TLS are only the protocol used, not the cipher. Cipher is the encryption algorithm
+Certificates identify servers and exchange the encryption keys
+DNS issues
+DNS servers are victims of reconnaissance and other attacks
+Internal IP disclosure
+Networks that use NAT attempt to hide their internal IP structure
+Information could be leaked in headers if a server isn’t configured properly
+VPN issues
+VPN’s consist of application protocols and SSl/TLS encrypted tunnels
+Config issues and missing firmware patches can also affect VPNS
+
+Virtualization Vulnerabilities
+VM escape
+Most serious of all virtualization issues
+Occurs when an attack can break out of the vm and reach the host
+Mangament interface access
+This interface controls access to all the vm’s and can configure them
+Should be highly secured including use of 2fa
+Virtual host patching
+Needs patching
+This can help prevent VM escape
+Virtual guest issues
+Each gues represents another server on the network, and they all need patching
+Ensure your remediation and patch mgmt considers all your vm’s
+Ensure that your scans are able to reach the virtual machines
+Virtual network issues
+Virtual firewalls, routers, and switches all need to be considered as part of your scanning program
+If embedded as part of your VM solution, ensure appropriate patching is being done to prevent attacks
+
+Web application vulnerabilities
+Injection attacks
+Send command sthrougha  web server to a backend system, bypassing the normal security controls
+Most commonly done as an sql inject
+Prevent this through input validation and using least privileges
+Cross site scripting
+Attacker embeds scripting commands on a website that is executed by a regular user without knowing it
+Victim in this case is the regular user, not the server
+If one of these are discovered during a scan, you need to work with the developer to fix the code and setup proper controls to prevent it in the future
+Cross-site request forgery
+Attacker forces a user to execute actons on a web server which they authenticated
+Attacker cannot see web servers response, but this attack can be used to have victim transfer funds, change their password etc
+
+			Domain III: Cyber Incident Response
+
+Security Incidents
+No matter what your org does to prevent a cyber incident eventually one will happen to you.
+Events
+Any observable occurrence in a system or network
+Adverse Event
+Any event that has negative consequences
+Incidents
+An imminent threat of violation, or a violation itself, of a security policy, AUP, or standard security practice.
+
+Not every event is an incident, but every incident contains at least one event.
+
+CSIRT(Computer Security Incdient Response Team)
+
+Incident response team
+Members are perm or temp
+Core team is cybersecurity professionals iwith incident response experience
+Temp members brought in for specific cases (like a DB admin for SQL)
+Smaller orgs have CSIRT as a collateral role in addition to their day job
+Incident Response Phases
+This process is not linear..it is cyclical NIST SP-800-61 (Computer Security Incident Handling Guide)
+
+Preparation
+Takes prep to build a well-prepared CSIRT
+Requires proper poilcy foundation within the org
+Prep includes building proper cyber defenses in the org
+Includes identifying /training personnel and building respnse skills
+Toolkits
+Digital forensic workstations
+Forensice software
+Packet capture devices
+Spare servers/network gear
+Backup devices
+Blank removable media
+Collection, analysis, and reporting laptops
+Portable printers
+Office supplies
+Evidence collection materials
+
+Detection and Analysis
+Hardest to standardize
+Tools help in detection, but it takes a trained analyst to understand all the details during analysis
+When detection occurs, analysts shift to validation mode, then into analysis
+Primarily passive activiteis designed to uncover and analyze incident
+Event Indicators
+Alerts IPS/IDS, SIEM, AV< or other software alerts
+Logs from OS ,services, applications, network devices, and network flows
+Publically available information news, media, and other open-source info
+People - suspicious activity reported by users or admins
+Best practices for analysis
+Profile network/systems
+Understand the baseline
+Create good logging policies
+Conduct event correlation
+Sync network and system clocks
+Maintain org knowledge base
+Capture network traffic asap in incident
+Filter info to reduce confusion
+Know when to bring in outside help
+
+Containment Eradication and recovery
+Focuses on stopping the spread of the incident, remove it from the network and reovering from it.
+Phase focuses on active detection and removal of the incident
+5 steps
+Pick a containment strategy
+Use strategy to limit the damage incident causes
+Gather evidence needed for future legal actions
+Identifying attacking system or attacker
+Remove effects of incident and recover normal business operations
+
+Post incident activities
+CSIRT isn’t done once the incident is contained and eradicted. The still need to:
+Event reconstruction
+Creating a timeline of the incident
+Id root cause of the intrusion or incident
+Conduct consultations with sys admins and mgmt
+Lessons Learned
+Utilizes timeline to aid imporvemtn of precedures and tools by csirt
+Group discussion to determine how the incident was handled and how it could hav ebeen handled better
+Lessons learned must be fed into the ITSM process in order to follow-on actions to be taken
+What happened and when?
+How did staff perform?
+Were procedures followed?
+Were procedures adequaite?
+What should have been done differently?
+Was information shared effectively?
+How could we detect incident sooner?
+What new tools or resources does the organization need?
+Evidence retention
+Large qtys of evidence have been collected
+What do we do with it all?
+CSIRT must identify interal/external retention requirements
+Timelines:
+US govt agencies must retain all incident handling items for 3 years
+Most orgs maintain records for 2 years unless otherwise required by regulations
+
+Incident response policy and procedures
+
+Foundation of the orgs incident response program
+Guides efforts at a high level
+Provides authority for response efforts
+Approved by CEO or CIO
+Should be fairly timeless
+Contents of the policy:
+Statement of mgmt commitement
+Purpose
+Objective
+Scope of policy
+Defintional terms
+Roles, responsibilities, and authority
+Incident prioritization scheme
+Measures of performance for CSIRT
+Reporting requirements
+Contact information
+
+Incident response procedures
+Detailed information
+Step-by-step guidelines
+Not a replacement for CSIRTs professional judgement and expertise
+Often developed as a specific playbook
+Describes a response to a high severity type of incident such as:
+Data breach of financial information
+Data breach of personality identifiable information
+Phishing attack against customers
+Web server defacements
+Loss of corporate laptop
+Intrusion into the corporate network
+Windows golden ticket reset
+Incident response checklist NIST SP 800-061
+
+Communication and Info Sharing
+During an incident how will you communicate and share information
+How will CSIRT communicate amongst themselves and to leadership
+How will mgmt communicate to other employees
+Incident response plan dictates how you will communicate during an incident
+Use oob communication
+
+External comms
+When will you communicate with outside people like law enforcement, media, shareholders, and others
+Your incident response plan should state when and how much info you can give
+
+Incident Classification
+All incidents should be classified by their threat and severity
+Allows comparison of current incident with past and future ones
+Aids in personnel’s understanding of the incident being worked on
+Classifying Threats:
+External or removable media
+Attack executed by removable media or peripheral
+Attrition
+Attack employing brute-force to compromise, deny, or degrade services, systems, or networks
+Web
+Attack executed from web-based application or site
+Email
+Attack executed from email or attachment
+Impersonation
+Attack that replaces something benign with something malicious (spoofing, sql injection, etc)
+Improper usage
+Violation of org’s AUP
+Loss or theft of equipment
+Computing device or media is lost or stolen
+Unknown
+Attack that comes from unknown origin
+Other
+Attack that comes from a known origin, but doesn’t fit into the other categories
+Advanced persistent threat (APT)
+Not a category under NISt, but prevalent today
+Often funded by nation states, orgnaized crime, or other sources
+Highly skilled and sphisticated attackers
+Often takes advantages of 0-day vulnerabilities
+
+Scope of impact
+Degree of impariment that an incident causes an org and the effort to recover from the incident
+Functional impact - degree of impairment to an org
+Economic Impact - amount of financial loss to an org
+Recoverability impact - Amount of time lost by an org
+
+Type of data
+The type of data involved in the incident also affects the calssification of severity
+Information Impact - the degree of information compromise during incident
+
+Network Event Monitoring
+
+Network event analysis is a common task for cybersecurity analysts
+Gether,correlate and analyze data from different systems/sensors on network
+Used to detect or prevent incidents
+
+Router-based monitoring
+Provides data flow on the network and information on the status of the device
+Relies on capturing the data about the traffic passing through a router
+Called network flows
+
+Network Flows
+Netflow sflow, jflow
+All are standards for monitoring traffic flows
+Count information about the traffic at the interface
+Samples traffic(1:100, 1:1000, etc)
+
+RMON
+Operates at layers 1, 2, 3, 4 of the OSI model
+Operates as client/server model with probes
+Provides stats history, alarms, and events to a mgmt information base (MIB)
+
+SNMP (Simple network mgmt protocol)
+Collects information about routers/switches
+Information is about the devices themselves not the traffic crossing those devices
+
+SNMPv3
+Adds encryption, authentication, and user capabiltiies to SNMP traffic
+SNMPv1 and v2 are considered obsolete and a security risk
+
+Active monitoring
+Request is sent to a remote system and data is collected form the endpoint
+Data contains information about:
+	Availability
+	Routes
+	Packet delays
+	Packet loss
+	Bandwidth
+examples
+Ping - data acquired by using ICMP on remote system
+Basic up and down info and latency only
+
+Iperf
+Measure max bandwidth og a given network
+Remote testing of a link
+Useful to determine a baseline of the network
+
+Passive monitoring
+Uses a network tap to copy all traffic between two devices
+Useful for after-the-fact analysis
+Detailed information about:
+	Rate of traffic
+	Protocols used
+	Content
+
+Network Monitoring Tools
+Wireshark - passive monitoring and packet capture, used for packet analysis
+Solwarwinds - Netflow traffic analyzer, shows top endpoints,
+Solarwinds Network perfomance monitor
+PRTG - Paesslet Router traffic grapher - server monitoring, network monitoring, and bandwidth monitoring, Performs packet sniffing, flows, snmp, WMI (windows mgmt instrumentation)
+Nagios - Network and system log monitoring tool, provides gui for system, services, and monitoring capabilities, critical in nagios isn’t based on CVE’s, but by thresholds you set during config
+Cacti - Uses SNMP polling of network devices for status information and shows a GUI
+
+
+Detecting network events
+Analysts shouldbe able to determine an incident based on events
+Analysis of logs and other data are key to understanding if an event will become an incident
+Types of Network Events:
+Beaconing
+	Beaconing or a heartbeat sends a signal to a C2C system due to a botnet or malware infection
+	Usually sent over HTTP/S
+	Can be difficult to detect
+	Generally occurs at a certain frequency or pattern
+Unusual BW consumption
+Unusual bw consumption could cause service issues or can be a sign of larger trouble
+Link and connection failures
+Generally occur due to a hardware, firmware, or software issues
+Could be as simple as a bad module broken cable or unplugged connector
+Unexpected traffic
+Detected by IPS/IDS, traffic monitoring systems, or by manual observation
+Understanding your baseline is important
+Not all unexpected traffic is malicious, but it should be investigated/understood
+Could be unusual based on type traffic, end point location, or amount
+Detecting unexpected traffic
+Baselines or anomaly-based
+Monitoring system alarm based on traffic that is outside the normal baseline
+Heuristics or behavior based
+Uses signature and defined rules to detect
+Protocol analysis
+Seeks to detect protocols where they arent expected, like VPN’s or IPv6 tunnels
+
+Network probes and attacks
+Denial Of Service (DOS)
+Detection:
+Attacks on a given network, system, or service from a single source
+Attempts to overwhelm system or network
+Prevention:
+Block the attacker using your firewall or IPS
+Distributed denail of service (DDOS)
+Attacks on a given network, system, or service from simultaneous multiple sources
+Attempts to overwhelm system or network
+Detection:
+Traffic coming from known botnet IP’s
+Monitoring your traffic and usage patterns
+Prevention:
+Network designed with distributed network of endpoints (like akamai)
+Ensure your networks can scale upwards
+
+Detecting Rogue Devices
+Mac address validation
+Ensure all devices are “Known Devices”
+Check device MAC against vendor codes
+Scan the network to idnetify devices
+Conduct physical site inspections
+Analyze traffic for irregular behaviour
+
+Rogue wired devices
+Usually occurs when an employee or attacker connects a wired device
+Network access control and port security can rpevent this occurring
+
+Rogue Wireless devices
+Can be detected by conducting wireless surveys and mapping the area
+Often used as an Evil Twin to trick users to connect to them and steal information
+
+Server and host events
+System Monitoring
+Processor (CPU) memory and drives
+CPU attacks usually occur as DOS
+Memory is monitored by the OS based on given threshholds
+Memory leaks occur when programs don’t release memory after being terminated
+Eventually all memory can be used up
+System restarted to release the memory
+
+System Monitoring tools (windows)
+Resource monitor (resmon)
+Built-in windows tool for monitoring CPU, Disk, Memory, and network utilization
+Performance monitor (perfmon)
+Built-in windows tool for monitoring
+Supports collection from remote systems
+
+System Monitoring tools (linux)
+Ps - cpu memory utilization, proces info
+Top - like ps, but also provides sorting by top usage
+Df - report of disk usage
+W - accounts logged on, who ran process
+
+Malware and unsupported software
+Use centralized mgmt tools to conduct installs and inventory
+Antivirus/antimalware tools
+Conduct blacklisting of software/files
+Application whitelisting
+
+Unauthorized access, changes, and privileges
+Users and permissions are complex with the number of systems in use
+Central mgmt tools(SIM/SIEM) can correlate logs for analysis
+Authentication Logs
+User creating logs
+System logs
+Application logs
+Security event logs
+
+Service and application Events
+
+Services and applications should be monitored per good ITSM (I.T. service mgmt) processes
+Are they up/down
+Are they repsonding properly?
+Are they functioning properly?
+Are they conducting transactions properly?
+Are they logging properly?
+Non security Issues:
+Auth errors
+Permission issues
+Services don’t start on boot up
+Service failures
+Investigate the issue to ensure it is not security related
+Use antivirus, antimalware, file integrity checking, and whitelisting to verify
+
+Checking service status
+
+Windows: services.msc(gui) or sc(command line)
+Linux: service -status-all (command line)
+
+Service application logs
+Windows: Use event viewer to view application logs
+Linux: log to /var/log directory
+Use tail to view the end of the log files
+
+Service application behavior
+Create and understand a baseline
+Log/alert on anything outside of baseline
+
+Service/Application attacks
+Anomalous activity
+Doesn’t match the typical behavior
+Investigate the activity and solve
+New Accounts
+Were they authorized
+Do they have excessive permissions
+Unexpected output
+Improper output or garbage output
+User and admin training imperative to determinging the root cause
+
+Unexpected outbound communication
+Why is the application sending out data
+Detect with network monitoring
+
+Service interruption
+Simple issue or a DDOS?
+Monitoring tools can help determine reason
+
+Memory Overflows
+Causes OS errors and crashes
+Monitoring for them is hard
+Detecting after a crash is easier
+
+Digital Forensics
+
+Forensics are used to determine any changes, activities, or actions that have occured on a host or server. Allows incident responders to determine what occurred by putting together carious pieces of information. Similar techniques are used by incident response teams and law enforcement.
+
+Documentation in digital forensics
+Documentation is one of the most important steps in digital forensics. Everything you do needs to be repeatable by a third-party investigator. Chain of custody is imperative for use in law enforcement.
+
+Forensics Toolkits
+Consists of specialized software and hardware to conduct disk imaging and follow-on analysis
+Mobile devices require additional tools
+
+Digital Forensics Toolkits Components
+
+Contain a wide variety of software and hardware needed to conduct collection and analysis of data in the field. Toolkits vary widely in cost and capability
+
+Digital Forensics workstation
+Conducts data capture and analysis
+Multicore CPU
+Maximum RAM
+Large, fast storage
+
+Forensic investigation software
+Capture and analyze forensic images. Document and track investigations
+FTK (forensic toolkit)
+EnCase
+SANS Investigative Forensic Kit (SIFT)
+The Sleuth Kit (TSK)
+
+Write Blockers
+Ensures hard dives being imaged cannot be written to or its data changed
+Hardware variants
+Software variants
+Ensures integrity of the captured disk
+
+Forensic Disk Duplicator
+Designed to copy hard drives without changing the original
+Dedicated device that copies drive drive and hashes the disk image
+
+Wiped Drives and removable Media
+Clean hard drives that are readt to receive disk images on
+Drives are prepared using a drive wipe before use in the field
+
+Cables and drive adapters
+Be ready to copy/collect any type of media you come across while in the field
+
+Digital camera
+Used to photograph system layout, system configs, drive labels, how a machine is cabled, etc
+
+Label Maker and Labels
+Label cables, components, and other items collected while in the field
+
+Documentation and checklists
+Chain of custody forms, incident response forms and plan, and more
+
+Mobile forensic toolkits
+
+Mobile devices have different os and security issues
+Capturing data from mobile devices can be more difficult and needs special tools
+
+Tools to access the sim card
+Different phones require small screwdrivers or a push pin style tool
+
+Connection cables
+Lightning cables or 30 pin for apple
+USB Micro, Mini, or USB-C for android
+
+Mobile forensic software
+Specialized software for accessing mobile devices
+
+Forensic Software
+Commercial and Open-source for:
+Imaging
+FTK imager
+EnCase Imager
+DD
+Analysis
+Creates a timeline of system changes
+Validates a file against known good copy
+File system analysis for hidden files, changes access and metadata
+Windows Registry analysis
+FTK
+EnCase
+SiFT
+CANE
+Autopsy
+Hashing and validation
+Creates a unique file integrity check of a disk image after creation
+Used as part of chain of custody
+EnCase uses built in hashing with its .EO1 format
+Should use both MD5 and SHA1/SHA256
+Process and memory dumps
+State of the OS and data in-resident memory at time of collection
+Difficult to collect without changing the contents contained
+Useful to capture decryption keys for disk encryption
+Hibernation files and crash dumps can also contain some of this data
+Fmem and Lime
+DumpIT
+Volatilty Framework
+EnCase
+FTK
+Memory dumps on system can be found at %systemroot%\MEMORY.DMP
+Password cracking
+Encrypted and password protected files require cracking or guessing password
+Hacking tools like HTR and Cain and Able can be used
+DOC. XLS, PPT, and ZIP files have other specialized password cracking tools:
+Advanced Office password breaker
+ElcomSofts distributed password recovery
+zip2john
+Log viewer
+Used to analyze log files from collected system images
+Can create timelines and visualize the data
+
+Training and certification
+Full time forensics personnel should be properly trained and certified 
+If not evidence might not be able to be used in court
+Forensic experts and their credentials are called into question by the defense
+
+Forensic Investigation process
+Determine what you want to find out
+Determine location to find that info
+Document your plan
+Acquire/preserve the evidence needed
+Perform initial analysis (log actions)
+Conduct deeper analysis (log actions)
+Report your findings
+
+Order of volatility
+CPU cache, registers, running processes, and memory
+Network traffic
+Hard disk drives and USB drives
+Backups, printouts, optical media
+
+Disk Imaging
+
+Bit by bit copy including the slack space and the unallocated space
+FTK imager
+DD
+EnCase
+
+Dd
+Standard linux tool
+Can clone drives using bit-by-bit copy
+Dd bs-64k if/dev/disk/sda1 of/mnt
+
+Ftk
+Commerical product that is free to use
+Documents chain of custody, adds hash, and creates metadata tags for later analysis
+
+Forensic drive duplicators
+Very expensive, dedicated devices
+Creates images, hashes, and chain of custody metadata
+
+Write blockers
+Maintain data integrity on the source disk
+Hardware write blockers should be used for best forensic integrity
+
+Encrypted Drives
+Try to find the password because brute force is VERY slow
+Capture the computer while logged in to bypass drive encryption when possible
+
+Incident Containment
+Perform this as quickly as possible
+Isolate the issue
+Stop the spread of the incident
+
+Containment considerations
+Containment isn’t perfect its quick and dirty
+Can cause some loss of business functionality
+Coordinate with stakeholders before you take actions
+
+Segmentation
+Proactive strategy to prevent spread from one part of network to another
+
+Isolation or removal
+Remove a system from your network and directly connect to internet
+Remove the attacker (disconnect PC)
+
+Objective of containment
+Limit the damage to the organization
+Provide incident handlers an opportunity to collect evidence and reapir issue
+Maintain and operate services for your customers to use
+
+Id attackers
+Do you need to identify the attacker?
+Is there a good business reason why?
+Attackers cover their tracks well, and identifying them can take a lot of time and resources, where you goal is simply to minimize business impact
+Law Enforcement has a different viewpoint on this though
+
+Eradication and recovery
+Remove and artifacts of the incident
+Restore the network to full functionality
+Correct and security deficiencies
+Remove malicious code, sanitize compromised media, and fix any of the affected user accounts
+
+Revocery is not:
+Re-buil;ding of the entire network
+A full redesign of the system
+A reason to buy all new equipment
+
+Reconstruction and Reimaging
+Once an attacker touches your system consider it compromised
+Reconstruct or reimage the system from a known good backup
+Consider the root cause of the incident so that the system isn’t susceptible to the same attack vector again
+
+Patching
+Patch any sytems that may be vulnerable to the same attack vector
+This is a good time to rescan and patch all your systems
+
+Sanitization and Disposal
+Clear
+Logical techniques used to sanitize data reset to factory state or overwriting a disk with all 0’s
+
+Purge
+Physical or logical techniques to make data recovery from a disk infeasible using newest techniques
+
+Destroy
+Data recovery infeasible and disk drive unusable for storage(melting, incinerating, destroying)
+
+Validation Effort
+Only authorized user accounts exist on each system in the network
+Verify permission asigned to each user
+Verify all systems are logging correctly
+Verify vulnerability scans on all systems are routinely conducted
+
+Finishing the response
+Change mgmt process
+Lessons learned
+Final report
+
+Change mgmt process
+Emergency change mgmt board may have authorized numerous actions during the incident response
+Follow up to ensure all changes have been documented properly
+Need to ensure that network diagrams and vuln scan profiles are updated
+
+Lessons learned
+Document the details, the root cause, and the solution to a security incident
+Fact-finding meetings should be conducted as close to the end of an incident response as possible
+Needed Changes identified during the lessons-learned process should be fed into the resourcing and change mgmt process
+
+Final report
+Every incident should finish wiht a compiled written report
+Established organizational memory
+Can serve as documentation in case further legal actions occurs in the future
+Can id other deficiencies inthe incident reponse that need to be addressed by mgmt
+
+Timeline of incident and response events
+Root cause of incident
+Location and description of evidence
+Actions taken to contain, eradicate, and recover (and responing for them)
+Estimated impact to org ($,time)
+Post-recovery validation effort results
+Documentation of lessons-learned
+
+Domain 4 Security architecture and toolsets
+
+Policy Documents
+
+Information security policy framework
+Policies
+High level statements of intent
+Contains broad statements about the cybersecurity objectives in the company
+Framework to meet the business goals and to define roles, responsibilities, and terms used in other security documents
+Ex:
+Informations secuirty
+AUP
+Data ownership
+Data classification
+Data Retention
+Account mgmt
+Password
+Standards
+Used to implement policy
+Includes mandatory actions, steps, or rules needed to achieve cybersecurity
+Approved by a lower leve than c-suite, such as director of Information Systems
+Standards can also exist in industry framewaork (COBIT, ITIL, ETc)
+Procedures
+Detailed step-by-step instruction created for people to perform an action
+Actionable steps to create a consistent method for achieving a security objective
+guidelines
+Not required actions, just recommended
+Flexible in nature to allow for exceptions and allowances during a unique situation
+Ex:
+The organization may create a guidelines showing users how to store data files in a cloud service and how to encrypt the files
+Recommendations
+Standard frameworks
+NIST cybersecurity framework
+Designed to meet one or more objectives
+Describve curent posture
+Describe desired state
+Idnetify and prioritize areas for improvement
+Assess progress toward desired state
+Communicate risk among interanl and external staekholders
+
+Framework core is a set of five security functions that apply to all industrues
+Framework implemnation tiers measure how the org is positioned to meet cybersecurity objectives
+Framework profiles describe how the org might approach functions covered by the framework core
+
+ISO 27001
+Used to be the most commonly used informaiton security standard
+Declining in usage outside of regulated companies that require ISO compliance
+To become ISO 27001 certified, an external assessor validates org compliance
+
+14 categories:
+Information secuirty policies
+Org of information security
+Human resource strategy
+Asset mgmt
+Access control
+Crytography
+Physical and Environment Secuirty
+Communications security
+System acquisition
+Information secuirty incident mgmt
+Information secuirty aspects of business continuity
+Compliance with internal requirements
+
+ITIL (Information technology infrastructure library)
+Comprehensive appraoch to ITSM (information technology service mgmt)
+
+Cobit (Control Objectives for Information and related technologies)
+Set of best practices for IT governance developed by ISACA
+Divides IT activites into four domains:
+Plan and organize
+Acquire and implement
+Deliver and support
+Monitor and evaluate
+
+Cobit framerowrk components
+COBIT framework
+Process descriptions
+Control objectives
+Mgmt guidelines
+Maturity models
+
+TOGAF ( The open group architecture framework)
+Widely adopted approach to enterprise architecture
+Four Domains
+Business architecture - integrates EA with business strategy
+Appliction Architecture - Contains app/systems used, interactionbetween systems and the relation to the business processes
+Data Architecture - Details approach to storing and managing info assets
+Technical Architecture - Details infrastructure needed to support other domains
+
+Sherwood applied business security architecture (SABSA)
+Alternative model for secuirty architecture that maps to architectural layers from different perspectives
+Used in enterprise architecture (EA)
+
+Policy based controls
+Policies provide the control objectives the org wants to achieve
+This is the desired end state, not the dethod or activites to accomplish them
+Security Controls are used to achieve the control objectives
+Physical controls
+Logical controls
+Administrative controls
+
+Physical controls
+Controls that impact the physical world
+Ex:
+Fences, gates, locks, lighting, alarm systems, fire suppression systems, etc
+
+Logical Controls
+Technical controls to enforce CIA
+Ex:
+ACLS in firewalls and routers, encryption
+
+Admin controls
+Procedural controls to implement good cybersecuirty practices
+Ex:
+Separation of duties, bg checks, reviewing log files, etc
+
+Combining control objectives
+Physical logical and admin controls ar emost effective when they are combined together
+Ex:
+To prevent theft of data from a server
+Physical controls for building access
+Logical controls like encryption
+Admin controls like requiring two people
+
+Audits and Assessments
+
+Audits
+Formal review of org cybersecurity program (internally)
+Or it can be for a specific compliance requirement (externally)
+Rigorous formal testing of controls resulting in the formal declaration by the auditor of compliance
+
+Assessments
+Less formal review of security controls
+Usually request by the org itself for process improvement purposes
+Information gathered through interviews with employees (which is considered the truth) instead of independent verification
+
+Laws and regulations
+
+HIPPA (health insurance portability and accountability act)
+Security and privacy rules for healthcare
+Affects healthcare providers, insurers, and others storing health information
+
+GLBA (Gramm-leach-bliley act
+Requires financial insituitions to have formal secuirty programs in place
+Must designate a “responsible” individual
+
+SOX(sarbanes-oxley)
+Requires publicly traded companies to maintain good secuirty around their IT systems storing and processing their financial records
+
+FERPA ( Family education rights and privacy acts)
+Requires educational institutions to implement secuirty and privacy controls for education records
+
+PCI-DSS (Payment card industry data secuirty standard)
+Rules about storage, processing and transmission of credit/debit card info
+Not a law, but a contractual obligation
+
+Data Breach notifications
+Requires companies to notify victims of data breaches in a timely manner
+
+
+Defense In Depth
+Foundaton of good security architecture
+Does not rely on a single defensive measure or control for protection
+
+Layered security defense (Inside out)
+Data
+Application
+Endpoint Security
+Network
+Perimeter
+Diificult to design and implement
+Must consider business needs and usability in the design of layered controls
+Four design models
+Uniform Protection
+Gives same level of protection to all data, systems, or networks
+Can be expensive for larger networks
+Protected enclaves
+Enclaves that house more sensitive data are given additional protections
+Risk or threat analysis based
+Addresses specific risks or threats inthe design of the networks and systems
+Information or classification based
+Map data protection to different classes of information
+Higher classification levels get additional attention and security controls
+
+Combining design models
+Often, these four models are combined as opposed to picking a single model
+
+Types of controls
+Control prevent, detect, counteract or limit certain security risks
+Technical controls
+Designed to provide security through technical measures
+Ex:
+Firewalls, IDS/IPS, Authentication Systems, Network segmentation
+Administrative controls
+Designed to provide security through processess and procedures
+Legal controls are a type of these controls that are put in plae by the law
+Ex:
+Incident response plans
+AUP
+Physical controls
+Designed to provide security by preventing physical access or harm to org system or facilities
+Ex:
+Fences, man traps, secuirty guards, fire suppresion systems
+Preventive controls
+Designed to stop an incident before it has occured
+Proactive measures
+Ex:
+Firewalls, av, training, secuirty guards
+Detective controls
+Designed to detect when an incident occurs, capture details about it and send an alarm/notification so someone can act
+Ex:
+IDS, Security cameras, logs
+Corrective controls
+Designed to fix an issue after an incident has occured
+Part of incident response process
+Reactive measures
+Ex:
+Security patching, system rebuilding, restore from backups
+Compensating controls
+Designed to satisy a security requirement not being met by other controls
+Minimizes threat down to an acceptable level of risk (Based on risk appetite)
+Ex:
+Blocking certain ports instead of upgrading all of the operating systems
+Segmenting vulnerable software to a separate part of the network
+
+Layered network defense
+
+Combining network architecture, config mgmt, practices, and policies.
+Can be accomplished through:
+Network segmentation
+Firewalls
+Outsourcing Network Segments
+
+Network segmentation
+Compartmentilzation of the network
+Benefits:
+Reduces the networks attack surface
+Limits scope of regulatory compliance
+Increases availability of critical services
+Increases network efficiency
+
+Segmentation is implemented thorugh firewalls, routers, switches, and vlans
+
+Simplest network design utilized used to create a DMZ for a lower trusted segment of the network
+Ensure you put protection in place between DMZ and intranet
+
+Multiple interface firewall
+Different ACL and rulesets applied to each interface, creating multiple network segments
+Often called service-leg DMZ
+
+Multi-firewall
+Dual-firewalls (or more) puts a firewall at each control point
+Allow sfor more stringent controls as you move deeper into the network
+
+Outsourcing Segments
+Remote Services
+SaaS and PaaS rely on providers for security and network design
+Directly Connected remote network
+Acts as an extension of your intranet
+Utilize IaaS with direct point-to-point VPN’s 
+To users, it appears the IaaS is just part of your network
+Low-level host protections at IaaS are still handled by the 3rd party service provider
+
+Layered Host Security
+Servers, desktops, laptops, smartphones are all considered hosts on your network
+Often the most at-risk part of the network since your users directly use them
+
+Common security controls:
+Passwords and strong authentication
+Encryption (file or full disk)
+Hist firewall and hist-based IPS
+DLP software
+whitelisting/blacklisting of software
+Antimalware/Antivirus software
+Patch mgmt
+System hardening
+Config mgmt
+File integrity monitoring
+Logging of events and issues
+
+Cryptography:
+Encryption and hashing
+Encrypting files or the full disk can protect “data at rest”
+Proper storage of the encryption keys/passphrases is critical to security
+Hashing of files can be used to ensure file integrity, as well
+
+Logging, monitoring, and validation
+Logs must be securely stored and centrally monitored
+Specialized log server or SIEM
+Config mgmt allow validation of system settings and software across the connected hosts
+
+
+Data Analytics
+
+Integrating logs across devices provides the most value and information
+Manual review of logs is time consuming
+Automated systems can help prioritize items for review based on heuristics and previous signatures created
+You need to onduct data aggregation and correlation, trend analysis, and historical analysis
+
+Data aggregation and correlation
+Combine data from multiple sources to identify events impacting different systems
+Effective as detective control
+
+Trend analysis
+Analyzes systems, events, and devices to detect trends and patters
+Identifies issues that are outside of expected growth or usage patterns
+
+Historical Analysis
+Analyzes system, events, and devices over time to detect trends and patterns
+Helpful during incident responses as it looks back over a longer period of time
+
+Personnel Security
+Foundation of admin controls
+Includes:
+Change control
+Config mgmt
+Monitoring and response
+Personnel security controls
+Business continuity 
+Disaster recovery
+
+Separation of duties
+Requires more than one person to perform a task by breaking the task into additional parts
+Provides a system of check and balances to prevent fraud and abuse
+
+Dual control
+Process of requiring two individuals to perform the action together
+Example:
+Unlocking a safe or a server room
+
+Succession planning
+Focuses on ensuring important duties will always have someone who can perform them
+Prevents issues from task not being performed during personnel turnover
+
+Cross training of employees
+Focuses on teaching emplyees skills to cover tasks other coworkers perform
+On-the-job training is used to ensure you have additional reosurces for a big project in the future or if someone quits
+
+Backgorund checks
+Conducted prior to hiring an employee
+
+Mandatory vacation time
+Staff members must take vacation
+Allows us to identify any issues being hidden since the person willnot maintain continous access to the systems
+
+Termination
+Policies and procedures focuses on what to do when an employee is terminated
+Retrieve company property, disabling accounts, changing security codes, etc
+
+Outsourcing concerns
+If you outsource ther are additional things you need to be concerned with
+Proper vetting of the provider
+What kind of bg checks are you doing on the service provider
+What kind of bg checks are done on their employees
+What internal personnel controls are used
+How do they handle employee issues
+Employment practice
+Access control
+How is access control handled to the system
+How is your data physically or logically segmented from other orgs that the serivce provider handles
+Data Ownership and control
+Who owns the data
+Is it encrypted when stored
+Does the service provider have access to just the data, or do they also have access to encryption keys
+Incident response and notification process
+How will you be notified if there is a breach
+Or will you even be notified if there is a breach
+
+User Awareness Training
+Users are the biggest threat to networks
+Proper security training is the most cost effective control that can be applied in an org
+All the tech controls in the world wont stop a threat is user lets the bad guys in the network
+
+AUP
+Threats faced by the org
+How to report a security issue
+Physical security concepts
+BYOD policy
+Data Handling requirements
+Best practices for passwords, emails, remote work, secure web browsing, etc
+
+
+Analyzing Secure Architectures
+
+Attackers always look for the flaw in the architectures security controls
+Pen testers act like an attacker to find these flaws, gaps, and single point of failiure
+When analyzing security controls, determine if they meet the given requirement or stated goal
+
+Operational view:
+Focuses onhow a function is performed or is supposed to accomplish
+
+Technical View:
+Focuses on tehcnoligies, configurations, and settings used in an architecture
+
+Logical View:
+Focuses on the interconnections of systems with less technical details than the technical view
+
+SPOF:
+Singular part of the system that could cause the entire system to fail or the desired security level to fail is exploited
+
+Data validation and trust:
+Data is commonly assumed to be valid and trustworth in a system
+Can cause issues such as trusting input provided to web application will be valid
+Can lead to SQl injections or other issues
+To prevent this, systems should be designed with validation and integrity checking
+
+Users:
+The alrgest cause of a security failure
+Mistakes and abuse can be at fault
+To prevent:
+Use automated monitoring to detect error
+Constrain interfaces to only allow activities
+Implement procedural checks and balances
+Provide user awareness training
+
+Authentication and Authorization
+User credentials, passwords, and permissions can cause security failure
+To prevent this:
+Multifactor auth
+Centralized acct mgmt
+Centralized priv mgmt
+Monitor priv account access
+User awareness training
+
+Architecture reviews
+Step-by-step analysis of org security needs
+Begin with design requirements and then look at technical and logical diagrams
+Identify issues and report them per your org processes
+
+Mainitaing secure architecture
+Threats change over time and system become outdated
+Conduct scheduled reviews - systems, networks, and processes
+Continual improvement - incremental improvements over time
+Retirement of processes - policies can become no longer relevant
+
+
+
+What is identity
+Collection of user information, rights, credentials, group memberships, & roles
+Set of claims about an individual or account holder made about one party to another party
+Key part of authentication, authorization, and trust
+
+Attributes of identity populate the directory and can be used as an authentication process
+
+AAA - Authentication, authorization, and accounting
+Used to control access to computers, networks, and services
+AAA systems use usernames, passwords , or other attributes to access systems
+
+Authentication - Individual proves who they are
+Authorization - Individual is provided access to a given resource
+Accounting - Logs and monitors a suer when an authentication or authorization attempt is made or completed
+
+Centralized Identity and access management(IAM)
+Systems built to create, store and manage identity information, including group memberships, roles, permissions, and more
+
+What does IAM do for us?
+Provision account
+Authentication
+SSO
+LDAP directory
+Account maintenance
+Reporting
+Monitoring
+Logging
+Auditing
+
+Identity Systems
+Provide common function
+Idnetity creating and mgmt
+Authentication and authorization
+Federation of identity information
+To provide these functions we use:
+Directories
+Authentication services
+Identity mgmt platforms and federated identity tools
+
+Directory Services
+Used in networks to provide information about systems and users
+Can be used to make org info available to email and other programs
+
+Securing ldap
+Enable and require TLS for LDAP query
+Set password storage to use salted hash
+Disable unauthenticated and anonymous dlap modes
+Replicate LDAP to a redundant server to prevent outages or DOS
+Strong acl’s on ldap to limit access to objects using least privilege model
+
+LDAP injection
+Type of attack whee improperly filtered input via web apps send arbitray ldap queries to the server
+Prevent this by:
+Escaping all variable using the right LDAP encoding function
+Use frameworks that automatically protect from injection (linq to active directory)
+Minimize privileges assigned to LDAP web apps
+Use input validation to whitelist what is allowed
+
+Authentication Protocols
+Protocols used to supply verifications of users identy to a relying system
+Ex:
+TACACS+
+Cisco extension to the terminal access control access control system
+Uses TCP to provide AAA services
+Lacks integrity checking of data it sends
+Encryption Flaws
+Don’t use
+RADIUS
+Remote authentication dial-in user servcie
+Most common AAA for networks, wireless networks, and other services
+Operates over TCP or UDP in a client server model
+Password obscured using shared sectret and md5
+Radius traffic should be encrypted
+Kerberos
+Designed with security in mind
+Operates on untrusted networks using encryption of its data
+Principles(users) comprised of three elements
+Primary (usually a username)
+Instance (unique ID incase usernames are similar
+Realm (group of primaries)
+	Replaced NTLM for AAA in windows binaries
+
+Single sign on (SSO)
+Allows users to authenticate once and then be able to use multiple systems
+
+Shared authentication
+OpenID
+Open-source standard for decentralized auth
+Uses Google ID to logon to all sites
+OAuth
+Open authentication standard used to share elements of identity with 3rd party
+
+OpenID Connect
+Authentication layer built using OAuth protocol
+Facebook connect
+Facebook login like openID
+
+Threats to identity systems
+Threats to the underlying auth and authorization system
+Exploit how users login
+How credentials are handled
+How users are authorized
+
+Target account lifecycle
+Creating credentials
+Preventing credential removal
+Elevating priviliges of credentials
+
+Attack the account itself
+Phishing
+Compromise systems holding credentials
+
+Personnel based threats
+Targets users through phishing or social engineering techniques
+User awareness training helps prevent this
+Insider threat woud also fall into this category
+
+Endpoint threats
+Targets your endpoint through
+Local exploits
+Keyloggers
+Local admin crenetials
+Pasword stores and tokens
+Protect by using anti-malware and av
+Protect by using strong authentication stores
+
+Other identity threats
+Server based threats
+Attacks your servers to send identity and authentication information to AAA servers
+Application/serivce threats
+Attacks your applications and/or services that rely on identity and authentication
+
+Roles rights and permission threats
+Threats focused on users or groups roles, rights, and permissions
+
+Attacking AAA protocols and systems
+
+Directory, authentication, and sso systems are great targets for attackers to go after
+Attackers use specific vulnerabilities and misconfigs to target the AAA protocol itself or how a server implements the protocol
+Attempting system compromises of domain controllers and AAA systems is common
+
+Attacking LDAP
+Target unenrypted LDAP traffic to capture traffic for replay attacks
+Use secure binding to prevent this
+Target improper access controls to harvest directory information or to modify directory
+Setup good access controls
+Perform LDAP injection against vulnerable web applications that interface with directory
+Validate web-based input and use least privilege
+Conduct DOS against LDAP to cause service to fail which rely on it
+Design scalable LDAP for redundancy
+
+RADIUS
+Authentication commonly used for network devices and VPNs can be attacked by:
+Session replay of server or client responses
+Use IPsec tunnels and use encryption
+Compromising shared secret key from client machines
+Use encryption and endpoint protections
+Brute force share secret key from a stolen password
+Changing passwords often 
+DOS to prevent user authentication
+Redundancy
+
+Kerberos
+Relies on central key distribtuion center (KDC)
+Compromise of KDC allows impersonation as any user
+Common attacks
+Stealing admin account credentials
+
+Kerberos ticket reuse
+Pass the ticket allows impersonation for ticket lifespan
+Pass the key allows resuing secret key to get new tickets
+Ticket Granting Ticket (TGT) attacks
+Golden ticket allows creating of new tickets, account changes, and creation of new accounts/services
+
+Active Directory
+Core identity store and AAA service for Microsoft windows domains
+Many exploits built for clients, servers, and AD
+
+Many windows domains contain older systems still or are at least backward configurations still activated which make sthem vulnerable to attack
+Very common target for attackers
+
+Attacks on AD:
+Malware focused on stealing credentials or phishing or social engineering
+Malware focused on windows server exploit
+Focus on attacking older services like NTLM, LANMAN< netBIOS, unsigned LDAP, or SMB
+Privilege creep of service accounts
+Overuse of domain admin credentials
+Priv escalation attacks
+
+OAUTH, OPENID, OPENID Connect
+OAUTH and OpenID are implemented by each service provider leading to config flaws
+Open redirects are a common attack
+Redirects and forwards aren’t validated
+Untrusted user input can be sent to web apps
+Users canbe redirected to untrusted websites
+Potential for phishing, pharming, or bypassing of website security
+
+Original account informtion willnot be compromised, but your web application may allow in untrusted users
+
+OpenID attacks have been directd at vyulnerabilities in the protcol itself
+Examples:
+Attackers forged request to gain arbitrary logins
+
+OAuth 2 is vulnerable to cross-site request forgery (CSRF) attacks
+Attack attempts to get user to click on a link so that their browser performs and action as the user
+
+OpenID Connect provides extra encryption and signing to prevent many of these exploits
+
+Targeting account lifecycle
+Utilize least privilege
+Users should only be provided with the lowest set of privileges and access necessary to perform their job functions
+
+Prevent Privilege creep
+Accounts tend to gain privileges overtime based on rotating job functions a user undertakes
+Always ensure to remove old rights when they are no longer needed
+
+Identity lifecycle mgmt
+Numerous tools exist to help with this
+Centrify, Okta, and ping identity provide account lifecycle maintenance and monitoring features
+
+Identity Exploits
+
+Impersonation attacks
+Attacks takes on identity of a legitimate user
+Usually involves credential theft or open redirects (oauth)
+
+Session hijacking
+Attacker rakes over an existing session by acuiring or guessing the session key
+Prevented through encrypting sessions
+
+MITM
+Attacker accesses the information flow between systems or services
+Prevented through using session or link encryption tunnels
+
+Privilege escaltion
+Attacker elevates their permissions from one level to a higher level
+Usually follows an attack on normal user account credentials
+
+Rootkits
+Attacker uses malware to provide continued access to a server/client while hiding their own presence
+
+Credential theft
+Attackers can target uses, services, or simply brute force
+
+Phishing
+Aimed at stealing creds by tricking users into clicking a link
+
+Compromise other websites
+Aimed at stealing creds from a less secure server, then reusing them in your org
+If other server stored as MD5 or other weak key stores, it becomes easy to crack passwords
+Brute-force attack
+Login using every different combination until you gain access
+Prevent:
+Limit number of login attempts
+Use captcha-style to prevent automation
+
+Securing authentication and authorization 
+
+Securing authentication
+Technical and admin controls can hekp secure the auth process
+Uses strong passwords/phrases
+Password mgmt is a concern
+Consider sso
+Token based for multifactor
+Pasword safes
+
+Encrypt comms between clients with tls
+
+Secure Authorization (users)
+Access control ensures users are matched with rights/privs
+Policies to control what rights are given
+Implement mgmt systems for approving rights
+Monitor/report on which accounts have which rights assigned
+Admin
+Priv users mgmt concers giving admin rights to users
+Use additional monitoring and logging
+Implement separation of duties
+Use appropriate training
+Prevent admin accounts from being used as daily accounts
+
+Multifactor authentication
+Uses two or mote factors for authentication
+Knowledge factors
+Possession factors
+Biometric factors
+Location factors
+
+Context-based authentication
+Authentication decision is based on info about the user, system, etc
+User role or group membership
+Time of day in relation to users’s hours
+IP address and reputation
+Frequency of access
+Location (ip or gps)
+Type of device
+
+Identity as a service
+
+Provides authentication services, usually through cloud based resources
+Id lifecycle mgmt
+Directory Services (LDAP, AD, or others)
+Access mgmt
+SSO via SAML, OAuth, or other technology
+Privilege account mgmt/monitoring
+reporting , auditing, and other oversight/visibility in the the identity lifecycle
+
+Will you centralize your directory services or will internal and external directories be used
+How about authentication? Centralized or federated
+Will you use local or cloud-based authoritative credential stores?
+
+If your current org doesn’t already have strong id mgtm idaas can be a big improvement in security. Centralized monitoring and reporting can help detect issues sooner than traditional systems
+
+Detecting Identity attacks
+
+Identity and access mgmt systems should be fed into the SIEM
+
+OCnfigure your SIEM to detect:
+Priv account usage
+Priv changes and grants
+Account creation or modifications
+Terminated user account usage
+Lifecycle mgmt events
+Separation of duty violations
+
+Active monitoring
+Knowledgeable techs should actively monitor identity systems
+Humans should analyze reports to identify issues
+Remember you must know what normal looks like in order to detect the abnormal
+
+Federated Identity Systems
+Moves the trust boundary outside your org to google, facebook, linkedin, or other providers
+
+Identity provider (IDP)
+Provides identities & release data to relying parties
+Relying Party (RP) or Service provider (sp)
+Members of the federations that provide services to the user when identified by identity provider
+Consumer or User
+Asked to make decision on who to share their identity with by IDP in order to get serivces from RP/SP
+
+Choosing a federated identity system
+Do you care that the suer says who they are
+If not use google, facebook, etc
+Otherwise, find identity provider that vets its users
+
+When users signup for your site using federated ID, you immediately provision a user account on your system mapped to the attributes released by IDP
+
+Federated Identity Systems technologies
+Security Assertion Markup Language (SAML0
+Oauth and Oauth2.0
+Active directory Federations Services (ADFS)
+OpenID connect
+
+SAML
+XML-based language to send authentication and authorization data between IDP and RP
+Used to enable SSO for web apps and services
+Allows attribute, authentication, and authorization decisions to be exchanged
+
+Oauth
+Developed by IETF to provide an authorization framework to allow service provider applications to access http-based services
+Provides access delegation to allow service providers to provide actions on behalf of users
+Support web clients, desktops, mobile devices, and other embedded device types
+Four parties served:
+Clients
+Application that the user wants to access/use
+Resource Owners
+End user being serviced
+Resource Servers
+Servers provided by a service the user wants to access
+Authorization Servers
+Servers owned by the IDP
+
+ADFS (active directory federated services)
+Provides authentication and identify data as claims to sevice providers
+Partner sites use trust policies to match claims supported by their services to make their own authorization decisions
+Works similar to the OAuth euthnetication process
+
+Incident response for federatd idnetity systems
+Check your contract
+IDP usually responsible for notfying account owners (users) and RP/SP of a breach and required response (like password resets)
+Rp/RP must determine their response if IDP was compromised (what response, if any)
+If your users’ accounts are compromised, how will you provide them access
+
+Software development life cycle (SDLC)
+
+Software development doesn’t always follow formal models
+Many different forms of SDLC but all share 8 basic functions
+SDLC can also be used for applications. Services, systems, or other desired outputs
+Planning for security early in the process will provide better security at a cheaper price
+
+Phases
+Planning
+Initial investigation into the effort conducted
+Determines feasability of desinging the desired software, costs, and any alternate solutions
+End result: decision to move forward or not
+Requirements
+Gain customer or stakeholder input to determine required functionality
+What should the program do
+What does your current program do
+Design
+Creates designs for functionality, architecture, integration points, techniques, data flows, processes and other elements
+Coding
+Programmers start writing the code for the software and conduct testing of invididvual units of code through code analysis
+Testing
+Formal testing with outside dev team
+User acceptance testing ensure users are satisfied with the functionality
+Training and transition
+Ensures the end users are trained on software
+Consists of acceptance, installation, and deployment of software into live environment
+Operations and maintenance
+Longest phase of the SDLC
+Patching, updating, modification, and daily support for the new software occurs
+EOL
+Dispostion and retirement of the software
+How will you stop supporting the software
+Will you migrate users to a new version
+
+Software development models
+Many models of software dev exist
+Models provide a common framework to use
+Cand use detailed practices, procedures, and documentation
+Can also be less formal and haphazrd
+
+Waterfall
+Linear model with each phase following the previous phase
+
+Spiral model
+Modification of waterfall it adds iterative process to revisit phases over and over
+
+Agile
+Iterative and incremental process
+Foundation:
+Individuals and interactions are most important
+Working software is better than documentation
+Customer collaboration over contract negotiation
+Responding to changes fast is better than a plan
+Tems:
+backlogs
+List of features or tasks to complete
+Planning poker
+Estiamtion tool for planning in agile
+timeboxing
+Agreed upon time to work on specific goal
+User stories
+Describe high-level user requirements
+Velocity tracking
+Adds up to estimates for current sprint effors and compares to what was actually complete
+
+RAD (rapid application development)
+Iterative process relying on building prototypes
+Provides a highly responsive development environment for modular work
+No planning phase just start coding.
+Terms:
+Business modeling
+Focuses on understanding business processes
+Data modeling
+Gather and analyze datasets and the relationships
+Process modeling
+Define the processes and data flows
+Application generation
+Code & convert data and processes into prototype
+Testing and turnonver
+Focuses on interfaces between components and verifying functionality
+
+Big bang SDLC model
+All coding is based on requirements and making resources available
+Doesn’t scale well, works best for single coder
+No planning or process
+
+V model
+Extension of the waterfall which pairs testing and dev phases together
+
+Coding for security
+
+Security should be added in requirements
+Security is built during design and coding
+Security is then tested in prototypes and final products
+
+Secure coding practices
+Have an org secure coding policy
+Conduct risk assessments (and ongoing assessments) to prioritze issues to remediate
+User input validation
+Consider your error messages
+Database security in application and database
+Encrypt sensitive information being stored
+Hash passwords your application store
+Design for availability and scalability
+Conduct load and stress testing
+Conduct monitoring and logging
+If possible, utilize multifactor authentication
+Code for secure session mgmt
+Prevents session hijacking
+Proper cookie mgmt
+Secure cookies if used in web apps
+Encrypt network traffic
+Use TLS to prevent network-based data capturing
+Secure the underlying infrastructure
+As a cybersecurity analyst, your biggest impact will usually be on the infrastructure side and not the code
+
+Open web application security project (OWASP)
+Community hosting standards, guides, best practices, open source tools
+Provides updated lists of proactive controls to test your web apps security
+
+Secure code mgmt
+Use check-in/check out and revision history to ensure youknow what code is current version
+Source control mgmt like version control toolslike Git subversion or cvs
+
+Testing application security
+
+Scanning using a tool
+Automated vulnerability scanning tools
+Manual pen testing
+Code review
+
+OWASP considers code reviews the best and most thorough of these options
+“360” reviews combined code review with pen testing then reviews code again
+
+Code reviews
+Shares knowledge of the code with others
+More experience is learned across the team
+Detects problems and enforces good coding
+
+Agile and formal models:
+Pair programming
+Agile dev technique
+Two developers use one workstation
+Provides real-time code review but is costly
+Over-the-shoulder
+Agile dev technique
+Developer who coded software explains it to another dev
+Lower cost than pair programming since it occurs at intervals instead of a constant review
+Pass-around
+For of review with one or more reviwers
+Code is emailed or shared for review
+Code documentation is much more important
+Tool-assisted
+Formal or informal software-based tools conduct code reviews
+Specialized software allows the reviewers to mark up the code, provide feedback, and more
+Fagan
+	Structured formal code review by a team of reviewers
+	Specifies entry/exit criteria for each process
+	More costly and harder to implement than other types of code reviews
+
+Finding security flaws
+
+Coding flaws are always going to occur
+Programming and syntax errors
+Business logic and process errors
+Error handling
+Incorrect integration with other services
+
+Static analysis
+Conducted by reviewing the code manually or with an automated tool
+Code is not run during analysis
+Form of white box testing
+
+Dynamic analysis
+Code is executed while providing specific input
+Uses automated tools or manual input
+Types:
+Fuzzing
+Sends invalid or random data to an application to test ability to handle unexpected data
+Typically automated to use large datasets
+Used to detect input validation logic issues memory leaks and error handling
+Fault injection
+Directly inserts faults into error handling parts of the code to test them
+Ex:
+Compile time injection - injects faults by modifying source code before compiling
+Protocol software injection - uses fuzzing to send noncompliant data to protocol
+Runtime injection - iserts data into running memory of the program or by sending a fault to the program to deal with it
+Mutation testing
+Makes small changes to the program itself to determine they would cause a failure
+If they cause a failure then they are rejected
+Used to test if code is testing for possible issues with unexpected input types
+Stress testing (load testing)
+Ensures apps and systems can support the expected prod load
+Uses automated tools to stress an expected load and determine if its handled properly
+Test for the worst-case scenario
+Can be conducted against entire system or just a single component
+Security regression testing
+Ensures that any changes made do not create new problem or issues in the application
+Used most commonly when a new patch or updte is added
+Verifies no new vulnerabilities or misconfigs have been added
+
+Web application vulnerability scanning
+Dedicated web app scanners do better than nessus, nexpose, and openvas
+Id problems with apps and the underlying web servers, databases, and infrastructure
+Ex:
+Acunetix WVS
+Archni 
+Burp suite
+IBM’s appScan
+HP’s webinspect
+Netsparker
+Qualysguard web application scanner
+W3af
+
+Manual scanning
+ Uses an interception proxy to capture communications between browser and server
+Testers can modify data sent and received
+Ex:
+Tamper data for firefox and chrome
+Httpfox
+Fiddler
+Burp
+
+Outsource your scanning
+Even the best vuln scanners will miss business logic issues and other flaws
+Outsourcing to a secuirty firm can identify issues that web app scanner cant
+These firms can provide both static and dynamic analysis of your apps
